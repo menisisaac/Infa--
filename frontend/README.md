@@ -1,2 +1,3 @@
-# Parser
-Implements recursive decent parsing 
+# Frontend
+
+Handwritten state machine lexing, recursive decent parser
