@@ -10,6 +10,7 @@
 #include "Token.h"
 #include <vector>
 
+
 class Lexer {
 public:
 Lexer(std::list <std::string> lines);

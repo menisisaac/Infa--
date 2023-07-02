@@ -4,7 +4,7 @@
 #ifndef INFA_TOKEN_H
 #define INFA_TOKEN_H
 
-#import "../../../../../Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string"
+#import <string>
 
 enum Type {
     Plus,

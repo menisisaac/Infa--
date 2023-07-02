@@ -22,6 +22,7 @@ void Lexer::Lex() {
     list<std::string>::iterator it;
     for (it = lines.begin(); it != lines.end(); ++it) {
         LexLine(*it);
+        tokens.push_back(new Token(EndOfLine));
         ++lineNumber;
     }
     if (commentMode)
@@ -312,7 +313,7 @@ unordered_map<std::string, Type> keyword = {
         {"false", FalseBool},
         {"class", Class},
         {"extends", Extends},
-        {"interface", Interface}
+        {"interface", Interface},
         {"Some", Some},
         {"None", None},
 };
