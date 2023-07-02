@@ -1,0 +1,38 @@
+fun main(x, y, z)
+    index: 32
+    decimal: 32f
+    ifIndex: true
+    letter: 'h'
+    word: "hello"
+    let one: x two: h in
+        one <- one + 1
+        two <- two + 2
+    repeat
+        ? index < 1000
+            index <- index + index
+        #? index > 8000
+            index <- index / 2
+        #
+            break
+        for x in 6 to 40
+            print x
+            continue
+        for x, y in array
+            print x
+            break
+            print y
+fun add(x, y)
+    barf x + y
+interface xyz
+    fun add(x, y, z)
+    fun sub(x,y, z)
+    fun divide(x, y, z)
+class xyz extends ghk
+    const z: 32
+    const y
+    u
+    v
+    xyz(g, h, y)
+        y: g
+        u: h
+        v: f
