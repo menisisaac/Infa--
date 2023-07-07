@@ -5,6 +5,7 @@
 #define INFA_TOKEN_H
 
 #import <string>
+#include <unordered_map>
 
 enum Type {
     Plus,
@@ -62,6 +63,25 @@ enum Type {
     Class,
     Extends,
     Interface
+};
+
+std::unordered_map<Type, std::string> typeToString = {
+        {Plus, "plus"},
+        {Minus, "divide"},
+        {Times, "times"},
+        {Divide, "divided by"},
+        {FloatPlus, "plus"},
+        {FloatDivide, "divided by"},
+        {FloatMinus, "minus"},
+        {FloatTimes, "times"},
+        {LessThan, "less than"},
+        {GreaterThan, "greater than"},
+        {LessThanEqualTo, "less than equal to"},
+        {GreaterThanEqualTo, "greater than equal to"},
+        {Equal, "equal"},
+        {AND, "and"},
+        {OR, "or"},
+        {Not, "not"},
 };
 
 class Token {

@@ -3,3 +3,7 @@
 //
 
 #include "Parser.h"
+
+Parser::Parser(std::vector<Token> t) {
+    this->tokens = t;
+}
