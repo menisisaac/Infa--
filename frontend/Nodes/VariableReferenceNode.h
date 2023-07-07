@@ -14,7 +14,7 @@ private:
     std::string name;
 public:
     explicit VariableReferenceNode(std::string n);
-    virtual std::string getName();
+    std::string getName();
     std::string toString() override;
 };
 

@@ -11,7 +11,7 @@
 
 class StatementNode : public Node{
 public:
-    virtual std::string toString() override {
+    std::string toString() override {
         return "I am a statement node";
     };
 };

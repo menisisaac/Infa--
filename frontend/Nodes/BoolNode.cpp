@@ -12,3 +12,7 @@ std::string BoolNode::toString() {
     std::string val = (value ? "true" : "false");
     return "Value: " + val;
 }
+
+BoolNode::BoolNode(bool value) {
+    this->value = value;
+}

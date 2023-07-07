@@ -7,13 +7,15 @@
 
 
 #include <string>
+#include "Node.h"
 
-class BoolNode {
+class BoolNode : public Node{
 private:
     bool value;
 public:
+    explicit BoolNode(bool value);
     bool isValue();
-    std::string toString();
+    std::string toString() override;
 };
 
 

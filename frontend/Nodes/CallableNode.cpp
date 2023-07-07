@@ -13,7 +13,7 @@ std::string CallableNode::getName() {
     return name;
 }
 
-std::list<VariableNode> CallableNode::getParamters() {
+std::list<VariableNode> CallableNode::getParameters() {
     return parameters;
 }
 

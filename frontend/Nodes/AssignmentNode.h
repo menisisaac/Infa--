@@ -17,7 +17,7 @@ public:
     AssignmentNode(Node* expr, VariableReferenceNode* target1);
     VariableReferenceNode* getTarget();
     Node* getExpression();
-    virtual std::string toString() override;
+    std::string toString() override;
 };
 
 

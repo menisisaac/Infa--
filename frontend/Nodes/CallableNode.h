@@ -17,9 +17,11 @@ private:
     std::list <VariableNode> parameters;
 public:
     CallableNode(std::string name, std::list<VariableNode> params);
-    std::string getName();
-    std::list<VariableNode> getParamters();
-    std::string toString();
+
+    virtual std::string getName();
+
+    virtual std::list<VariableNode> getParameters();
+    std::string toString() override;
 };
 
 

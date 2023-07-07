@@ -23,7 +23,7 @@ public:
     bool varIsConstant();
     Type getDataType();
     Node getValue();
-    std::string toString();
+    std::string toString() override;
 };
 
 
