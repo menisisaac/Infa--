@@ -65,7 +65,7 @@ enum Type {
     Interface
 };
 
-std::unordered_map<Type, std::string> typeToString = {
+inline std::unordered_map<Type, std::string> typeToString = {
         {Plus, "plus"},
         {Minus, "divide"},
         {Times, "times"},
