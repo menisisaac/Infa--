@@ -6,7 +6,6 @@
 #define INFA_FUNCTIONCALLNODE_H
 
 
-#include <string>
 #include <list>
 #include "StatementNode.h"
 #include "ParameterNode.h"

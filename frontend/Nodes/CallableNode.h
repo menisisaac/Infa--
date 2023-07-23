@@ -6,21 +6,19 @@
 #define INFA_CALLABLENODE_H
 
 
-#include <string>
 #include <list>
-#include "Node.h"
 #include "VariableNode.h"
 
 class CallableNode : public Node {
 private:
     std::string name;
-    std::list <VariableNode> parameters;
+    std::vector <VariableNode*> parameters;
 public:
-    CallableNode(std::string name, std::list<VariableNode> params);
+    CallableNode(std::string name, std::vector<VariableNode*> params);
 
     virtual std::string getName();
 
-    virtual std::list<VariableNode> getParameters();
+    virtual std::vector<VariableNode*> getParameters();
     std::string toString() override;
 };
 

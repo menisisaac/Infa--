@@ -6,7 +6,6 @@
 #define INFA_VARIABLENODE_H
 
 
-#include <string>
 #include "../Token.h"
 #include "Node.h"
 
@@ -14,10 +13,12 @@ class VariableNode : public Node{
 private:
     std::string name;
     bool isConstant;
+    bool hasType;
     Type datatype;
     Node value;
 public:
     VariableNode(std::string n, bool isC, Type dt);
+    VariableNode(std::string n, bool isC);
     VariableNode(std::string n, bool isC, Type dt, Node val);
     std::string getName();
     bool varIsConstant();

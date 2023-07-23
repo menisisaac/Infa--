@@ -1,8 +1,9 @@
 #include <iostream>
 #include "frontend/Lexer.h"
 #include "frontend/Nodes/Node.h"
-#include "frontend/Nodes/AssignmentNode.h"
 #include <fstream>
+#include "frontend/Parser.h"
+
 
 std::list<std::string> getLines(std::string filename) {
     std::fstream source;
@@ -14,21 +15,19 @@ std::list<std::string> getLines(std::string filename) {
             lines.push_back(line);
         }
     } else {
-        throw std::runtime_error("File doesn't exist");
+        std::cout << "Hi";
+        //throw std::runtime_error("File doesn't exist");
     }
     return lines;
 }
 
-void testObject() {
-    VariableReferenceNode* vrn = new VariableReferenceNode("Hello");
-    Node* nd = new AssignmentNode(new Node(), new VariableReferenceNode("Hello"));
-    std::cout << nd->toString();
-}
-
 
 int main(int argc, char* argv[]) {
+    Lexer lex = *new Lexer(getLines(argv[1]));
+    Parser parse = *new Parser(lex.GetTokens());
+    FunctionDefinition* fun = parse.parse();
+    std::cout << fun->toString();
 
-    testObject();
 
 
 

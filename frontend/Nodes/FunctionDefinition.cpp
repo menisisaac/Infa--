@@ -6,19 +6,23 @@
 
 #include <utility>
 
-FunctionDefinition::FunctionDefinition(std::string name, std::list<VariableNode> params,
-                                       std::list<StatementNode> statements) : CallableNode(std::move(name), std::move(params)){
+FunctionDefinition::FunctionDefinition(std::string name, std::vector<VariableNode*> params,
+                                       std::vector<StatementNode*> statements) : CallableNode(std::move(name), std::move(params)){
     this->statementNodes = std::move(statements);
 
 }
 
-std::list<StatementNode> FunctionDefinition::getStatementNodes() {
+std::vector<StatementNode*> FunctionDefinition::getStatementNodes() {
     return statementNodes;
 }
 
-std::list<VariableNode> FunctionDefinition::getParameters() {
+std::vector<VariableNode*> FunctionDefinition::getParameters() {
     return CallableNode::getParameters();
 }
 std::string FunctionDefinition::getName() {
     return CallableNode::getName();
+}
+
+std::string FunctionDefinition::toString() {
+    return CallableNode::toString();
 }

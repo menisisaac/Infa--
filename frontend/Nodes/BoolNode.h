@@ -6,7 +6,6 @@
 #define INFA_BOOLNODE_H
 
 
-#include <string>
 #include "Node.h"
 
 class BoolNode : public Node{

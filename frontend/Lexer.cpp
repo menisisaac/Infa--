@@ -26,7 +26,7 @@ void Lexer::Lex() {
         ++lineNumber;
     }
     if (commentMode)
-        throw runtime_error("Comment never ends");
+        std::cout << "Error"; // runtime_error("Comment never ends");
 }
 
 void Lexer::LexLine(std::string line) {
@@ -82,7 +82,7 @@ void Lexer::LexLine(std::string line) {
                 SymbolState(line);
                 break;
             default:
-                throw runtime_error("Invalid Syntax");
+                std::cout << "Error"; // runtime_error("Invalid Syntax");
         }
     }
     ++lineNumber;
@@ -118,8 +118,8 @@ void Lexer::NumberState(std::string line, bool hasSign)  {
     while(index < length && (isdigit(line.at(index)) || line.at(index) == '.')) {
         if (line.at(index) == '.') {
             if (hasDecimal)
-                throw runtime_error(
-                        "Multiple Decimals at line " + to_string(lineNumber) + " position " + to_string(index));
+                std::cout << "Error"; // runtime_error(
+                        "Multiple Decimals at line " + to_string(lineNumber) + " position " + to_string(index);
             hasDecimal = true;
         } else {
             seenNumber = true;
@@ -131,7 +131,7 @@ void Lexer::NumberState(std::string line, bool hasSign)  {
     if (seenNumber)  {
         if (hasDecimal) {
             if (!seenNumberAfterDecimal) {
-                throw runtime_error("Must have number after decimal, use f to indicate float instead");
+                std::cout << "Error"; // runtime_error("Must have number after decimal, use f to indicate float instead");
             }
         }
         if (index < length && line.at(index) == 'f') {
@@ -145,7 +145,7 @@ void Lexer::NumberState(std::string line, bool hasSign)  {
         tokens.push_back(new Token(Integer, line.substr(start, index - start)));
         return;
     }
-    throw runtime_error("No numeric values");
+    std::cout << "Error"; // runtime_error("No numeric values");
 }
 
 
@@ -170,7 +170,7 @@ void Lexer::CharState(std::string line) {
         tokens.push_back(new Token(Character, line.substr(start + 1, 1)));
         index = index + 2;
     } else {
-        throw runtime_error("Character never ended");
+        std::cout << "Error"; // runtime_error("Character never ended");
     }
 }
 
@@ -290,7 +290,7 @@ void Lexer::SymbolState(std::string line) {
             tokens.push_back(new Token(Comma));
             break;
         default:
-            throw runtime_error("Symbol doesn't exist");
+            std::cout << "Error"; // runtime_error("Symbol doesn't exist");
     }
 }
 

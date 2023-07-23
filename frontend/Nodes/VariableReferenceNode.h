@@ -6,7 +6,6 @@
 #define INFA_VARIABLEREFERENCENODE_H
 
 
-#include <string>
 #include "Node.h"
 
 class VariableReferenceNode : Node{

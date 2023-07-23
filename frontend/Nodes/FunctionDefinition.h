@@ -14,12 +14,13 @@
 
 class FunctionDefinition : public CallableNode{
 private:
-    std::list<StatementNode> statementNodes;
+    std::vector<StatementNode*> statementNodes;
 public:
-    FunctionDefinition(std::string name, std::list<VariableNode> params, std::list<StatementNode> statements);
-    std::list<StatementNode> getStatementNodes();
-    std::list<VariableNode> getParameters() override;
-    std::string getName();
+    FunctionDefinition(std::string name, std::vector<VariableNode*> params, std::vector<StatementNode*> statements);
+    std::vector<StatementNode*> getStatementNodes();
+    std::vector<VariableNode*> getParameters() override;
+    std::string getName() override;
+    std::string toString() override;
 };
 
 

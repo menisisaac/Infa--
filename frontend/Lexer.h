@@ -13,7 +13,7 @@
 
 class Lexer {
 public:
-Lexer(std::list <std::string> lines);
+explicit Lexer(std::list <std::string> lines);
 std::vector<Token*> GetTokens();
 private:
     std::list <std::string> lines;

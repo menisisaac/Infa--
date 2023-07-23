@@ -8,12 +8,25 @@
 
 #include <vector>
 #include "Token.h"
+#include "Nodes/FunctionDefinition.h"
 
 class Parser {
 private:
-    std::vector<Token> tokens;
+    int index;
+    int length;
+    std::vector<Token*> tokens;
+    FunctionDefinition* parseFunctionDefinition();
+    std::vector<VariableNode*> parameters();
+    Token* matchAndRemove(Type t);
+    bool match(Type t);
+
+
+
+
 public:
-    explicit Parser(std::vector<Token> t);
+    explicit Parser(std::vector<Token*> t);
+    FunctionDefinition* parse();
+
 
 };
 

@@ -7,7 +7,6 @@
 
 
 #include "Node.h"
-#include <string>
 
 class CharNode : public Node{
 private:

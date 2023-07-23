@@ -4,7 +4,7 @@
 #ifndef INFA_TOKEN_H
 #define INFA_TOKEN_H
 
-#import <string>
+#include <string>
 #include <unordered_map>
 
 enum Type {

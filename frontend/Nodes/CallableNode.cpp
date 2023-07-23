@@ -4,19 +4,26 @@
 
 #include "CallableNode.h"
 
-CallableNode::CallableNode(std::string name, std::list<VariableNode> params) {
-    this->name = name;
-    this->parameters = params;
+#include <utility>
+
+CallableNode::CallableNode(std::string name, std::vector<VariableNode*> params) {
+    this->name = std::move(name);
+    this->parameters = std::move(params);
 }
 
 std::string CallableNode::getName() {
     return name;
 }
 
-std::list<VariableNode> CallableNode::getParameters() {
+std::vector<VariableNode*> CallableNode::getParameters() {
     return parameters;
 }
 
 std::string CallableNode::toString() {
-    return "Function Name: " + name;
+    std::string result = "Function Name: " + name + "(";
+    for(auto& param : parameters) {
+        result += param->toString() + ",";
+    }
+    result[result.size() - 1] = ')';
+    return result;
 }

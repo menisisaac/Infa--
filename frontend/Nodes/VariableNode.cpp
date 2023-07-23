@@ -10,11 +10,18 @@ VariableNode::VariableNode(std::string n, bool isC, Type dt) {
     name = std::move(n);
     isConstant = isC;
     datatype = dt;
+    hasType = true;
+}
+VariableNode::VariableNode(std::string n, bool isC) {
+    name = std::move(n);
+    isConstant = isC;
+    hasType = false;
 }
 
-VariableNode::VariableNode(std::string n, bool isC, Type dt, Node val) {
-    VariableNode(n, isC, dt);
-    value = val;
+
+VariableNode::VariableNode(std::string n, bool isC, Type dt, Node val) : VariableNode(std::move(n), isC, dt){
+    value = std::move(val);
+    hasType = true;
 }
 
 std::string VariableNode::getName() {
@@ -44,5 +51,7 @@ std::string VariableNode::toString() {
     }
     return result;
 }
+
+
 
 
