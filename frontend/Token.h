@@ -62,7 +62,9 @@ enum Type {
     Dot,
     Class,
     Extends,
-    Interface
+    Interface,
+    If,
+    Else
 };
 
 inline std::unordered_map<Type, std::string> typeToString = {

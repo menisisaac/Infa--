@@ -9,6 +9,7 @@
 #include <vector>
 #include "Token.h"
 #include "Nodes/FunctionDefinition.h"
+#include "Nodes/AssignmentNode.h"
 
 class Parser {
 private:
@@ -19,13 +20,19 @@ private:
     std::vector<VariableNode*> parameters();
     Token* matchAndRemove(Type t);
     bool match(Type t);
-
-
-
+    std::vector<StatementNode*> statements(int level);
+    int getIndentLevel();
+    StatementNode *statement(int level);
+    Node* Expression();
+    Node* PLUSMINUS();
+    Node* Term();
+    Node* Factor();
+    AssignmentNode *assignment();
 
 public:
     explicit Parser(std::vector<Token*> t);
     FunctionDefinition* parse();
+
 
 
 };

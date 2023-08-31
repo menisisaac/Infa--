@@ -6,7 +6,7 @@
 
 #include <utility>
 
-AssignmentNode::AssignmentNode(Node* expr, VariableReferenceNode* target1) {
+AssignmentNode::AssignmentNode(VariableReferenceNode* target1, Node* expr) {
     this->expression = expr;
     this->target = target1;
 }

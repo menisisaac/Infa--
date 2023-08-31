@@ -8,7 +8,7 @@
 
 #include "Node.h"
 
-class VariableReferenceNode : Node{
+class VariableReferenceNode : public Node{
 private:
     std::string name;
 public:

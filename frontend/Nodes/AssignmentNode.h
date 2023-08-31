@@ -14,7 +14,7 @@ private:
     VariableReferenceNode* target;
     Node* expression;
 public:
-    AssignmentNode(Node* expr, VariableReferenceNode* target1);
+    AssignmentNode(VariableReferenceNode* target1, Node* expr);
     VariableReferenceNode* getTarget();
     Node* getExpression();
     std::string toString() override;

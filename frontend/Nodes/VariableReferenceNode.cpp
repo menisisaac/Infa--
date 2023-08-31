@@ -4,8 +4,10 @@
 
 #include "VariableReferenceNode.h"
 
+#include <utility>
+
 VariableReferenceNode::VariableReferenceNode(std::string n) {
-    this->name = n;
+    this->name = std::move(n);
 }
 
 std::string VariableReferenceNode::getName() {
