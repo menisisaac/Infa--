@@ -1,0 +1,8 @@
+/home/menis/project/Infa--/build/CMakeFiles/intrinsics_gen.dir
+/home/menis/project/Infa--/build/CMakeFiles/omp_gen.dir
+/home/menis/project/Infa--/build/CMakeFiles/acc_gen.dir
+/home/menis/project/Infa--/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/menis/project/Infa--/build/CMakeFiles/Infa.dir
+/home/menis/project/Infa--/build/CMakeFiles/TestInfa.dir
+/home/menis/project/Infa--/build/CMakeFiles/edit_cache.dir
+/home/menis/project/Infa--/build/CMakeFiles/rebuild_cache.dir

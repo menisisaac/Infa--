@@ -12,7 +12,8 @@
 #include "Nodes/AssignmentNode.h"
 
 class Parser {
-private:
+//private:
+    public:
     int index;
     int length;
     std::vector<Token*> tokens;

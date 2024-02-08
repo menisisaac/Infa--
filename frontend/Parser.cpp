@@ -8,6 +8,8 @@
 #include "Nodes/CharNode.h"
 #include "Nodes/MathOpNode.h"
 #include "Nodes/AssignmentNode.h"
+#include "Nodes/IntNode.h"
+#include "Nodes/FloatNode.h"
 #include <unordered_set>
 #include <iostream>
 
@@ -62,12 +64,14 @@ std::vector<StatementNode*> Parser::statements(int level) {
             break;
         }
     }
+    return statements;
 }
 StatementNode* Parser::statement(int level) {
     StatementNode* statement = nullptr;
     if((statement = assignment()) != nullptr) {
         return statement;
     }
+    return statement;
 }
 
 
@@ -237,7 +241,11 @@ Node* Parser::Factor() {
         return new CharNode(identifier->getValue());
     }
     Token* number = this->tokens[this->index++];
-
+    if(number->getValue().find('.') != std::string::npos) {
+        return new IntNode(std::stoi(number->getValue()));
+    } else {
+        return new FloatNode(std::stod(number->getValue()));
+    }
 
 
 }
