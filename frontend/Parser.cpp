@@ -57,6 +57,7 @@ std::vector<StatementNode*> Parser::statements(int level) {
         if (getIndentLevel() != level) {
             return statements;
         }
+        this->index++;
         StatementNode* s = statement(level);
         if (s != nullptr) {
             statements.push_back(s);
@@ -105,11 +106,11 @@ AssignmentNode* Parser::assignment() {
     Token* target = nullptr;
     Node* expression = nullptr;
     if(this->length - this->index >= 4) {
-        if(this->tokens[1]->getType() == Assignment) {
+        if(this->tokens[2]->getType() == Assignment) {
             if((target = matchAndRemove(Identifier)) != nullptr) {
                 matchAndRemove(Assignment);
                 expression = Expression();
-                if(expression == nullptr || matchAndRemove(EndOfLine) != nullptr) {
+                if(expression == nullptr &&  matchAndRemove(EndOfLine) != nullptr) {
                     std::cout << "Error";
                     return new AssignmentNode(nullptr, nullptr);
                 }
@@ -242,9 +243,9 @@ Node* Parser::Factor() {
     }
     Token* number = this->tokens[this->index++];
     if(number->getValue().find('.') != std::string::npos) {
-        return new IntNode(std::stoi(number->getValue()));
-    } else {
         return new FloatNode(std::stod(number->getValue()));
+    } else {
+        return new IntNode(std::stoi(number->getValue()));
     }
 
 

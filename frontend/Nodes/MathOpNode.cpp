@@ -41,7 +41,7 @@ std::unordered_map<MathOp, std::string> opToString = {
 
 
 std::string MathOpNode::toString() {
-    return getLeft()->toString() + opToString[this->instanceType] + getRight()->toString() ;
+    return getLeft()->toString() + " " + opToString[this->instanceType] + " " + getRight()->toString() ;
 }
 
 
