@@ -21,6 +21,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/menis/project/Infa--/frontend/Nodes/IntNode.cpp" "CMakeFiles/TestInfa.dir/frontend/Nodes/IntNode.cpp.o" "gcc" "CMakeFiles/TestInfa.dir/frontend/Nodes/IntNode.cpp.o.d"
   "/home/menis/project/Infa--/frontend/Nodes/MathOpNode.cpp" "CMakeFiles/TestInfa.dir/frontend/Nodes/MathOpNode.cpp.o" "gcc" "CMakeFiles/TestInfa.dir/frontend/Nodes/MathOpNode.cpp.o.d"
   "/home/menis/project/Infa--/frontend/Nodes/ParameterNode.cpp" "CMakeFiles/TestInfa.dir/frontend/Nodes/ParameterNode.cpp.o" "gcc" "CMakeFiles/TestInfa.dir/frontend/Nodes/ParameterNode.cpp.o.d"
+  "/home/menis/project/Infa--/frontend/Nodes/StringNode.cpp" "CMakeFiles/TestInfa.dir/frontend/Nodes/StringNode.cpp.o" "gcc" "CMakeFiles/TestInfa.dir/frontend/Nodes/StringNode.cpp.o.d"
   "/home/menis/project/Infa--/frontend/Nodes/VariableNode.cpp" "CMakeFiles/TestInfa.dir/frontend/Nodes/VariableNode.cpp.o" "gcc" "CMakeFiles/TestInfa.dir/frontend/Nodes/VariableNode.cpp.o.d"
   "/home/menis/project/Infa--/frontend/Nodes/VariableReferenceNode.cpp" "CMakeFiles/TestInfa.dir/frontend/Nodes/VariableReferenceNode.cpp.o" "gcc" "CMakeFiles/TestInfa.dir/frontend/Nodes/VariableReferenceNode.cpp.o.d"
   "/home/menis/project/Infa--/frontend/Parser.cpp" "CMakeFiles/TestInfa.dir/frontend/Parser.cpp.o" "gcc" "CMakeFiles/TestInfa.dir/frontend/Parser.cpp.o.d"

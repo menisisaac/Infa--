@@ -24,5 +24,9 @@ std::string FunctionDefinition::getName() {
 }
 
 std::string FunctionDefinition::toString() {
-    return CallableNode::toString();
+    std::string header = CallableNode::toString() + '\n';
+    for(auto& statement : statementNodes) {
+        header += statement->toString() + '\n';
+    }
+    return header;
 }

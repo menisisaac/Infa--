@@ -32,6 +32,9 @@ void Lexer::LexLine(std::string line) {
   index = 0;
   int spaceCount = 0;
   int state = -1;
+  if(line.find_first_not_of(' ') == std::string::npos) {
+      return;
+  } 
   while (line.at(index) == ' ') {
     ++index;
     ++spaceCount;

@@ -545,6 +545,33 @@ frontend/Nodes/ParameterNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestInfa.dir/build.make CMakeFiles/TestInfa.dir/frontend/Nodes/ParameterNode.cpp.s
 .PHONY : frontend/Nodes/ParameterNode.cpp.s
 
+frontend/Nodes/StringNode.o: frontend/Nodes/StringNode.cpp.o
+.PHONY : frontend/Nodes/StringNode.o
+
+# target to build an object file
+frontend/Nodes/StringNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Infa.dir/build.make CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestInfa.dir/build.make CMakeFiles/TestInfa.dir/frontend/Nodes/StringNode.cpp.o
+.PHONY : frontend/Nodes/StringNode.cpp.o
+
+frontend/Nodes/StringNode.i: frontend/Nodes/StringNode.cpp.i
+.PHONY : frontend/Nodes/StringNode.i
+
+# target to preprocess a source file
+frontend/Nodes/StringNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Infa.dir/build.make CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestInfa.dir/build.make CMakeFiles/TestInfa.dir/frontend/Nodes/StringNode.cpp.i
+.PHONY : frontend/Nodes/StringNode.cpp.i
+
+frontend/Nodes/StringNode.s: frontend/Nodes/StringNode.cpp.s
+.PHONY : frontend/Nodes/StringNode.s
+
+# target to generate assembly for a file
+frontend/Nodes/StringNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Infa.dir/build.make CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestInfa.dir/build.make CMakeFiles/TestInfa.dir/frontend/Nodes/StringNode.cpp.s
+.PHONY : frontend/Nodes/StringNode.cpp.s
+
 frontend/Nodes/VariableNode.o: frontend/Nodes/VariableNode.cpp.o
 .PHONY : frontend/Nodes/VariableNode.o
 
@@ -781,6 +808,9 @@ help:
 	@echo "... frontend/Nodes/ParameterNode.o"
 	@echo "... frontend/Nodes/ParameterNode.i"
 	@echo "... frontend/Nodes/ParameterNode.s"
+	@echo "... frontend/Nodes/StringNode.o"
+	@echo "... frontend/Nodes/StringNode.i"
+	@echo "... frontend/Nodes/StringNode.s"
 	@echo "... frontend/Nodes/VariableNode.o"
 	@echo "... frontend/Nodes/VariableNode.i"
 	@echo "... frontend/Nodes/VariableNode.s"

@@ -5,11 +5,13 @@
 #include "Parser.h"
 #include "Nodes/VariableReferenceNode.h"
 #include "Nodes/BoolNode.h"
+#include "Nodes/StringNode.h"
 #include "Nodes/CharNode.h"
 #include "Nodes/MathOpNode.h"
 #include "Nodes/AssignmentNode.h"
 #include "Nodes/IntNode.h"
 #include "Nodes/FloatNode.h"
+#include "Token.h"
 #include <unordered_set>
 #include <iostream>
 
@@ -105,8 +107,8 @@ int Parser::getIndentLevel() {
 AssignmentNode* Parser::assignment() {
     Token* target = nullptr;
     Node* expression = nullptr;
-    if(this->length - this->index >= 4) {
-        if(this->tokens[2]->getType() == Assignment) {
+    if(this->length - this->index >= 3) {
+        if(this->tokens[this->index + 1]->getType()== Assignment) {
             if((target = matchAndRemove(Identifier)) != nullptr) {
                 matchAndRemove(Assignment);
                 expression = Expression();
@@ -114,8 +116,8 @@ AssignmentNode* Parser::assignment() {
                     std::cout << "Error";
                     return new AssignmentNode(nullptr, nullptr);
                 }
+                matchAndRemove(EndOfLine);
                 return new AssignmentNode(new VariableReferenceNode(target->getValue()), expression);
-
             }
         }
     }
@@ -139,6 +141,7 @@ std::vector<VariableNode*> Parser::parameters() {
             return params;
         }
     }
+    matchAndRemove(EndOfLine);
     return params;
 }
 
@@ -236,7 +239,7 @@ Node* Parser::Factor() {
         return new BoolNode(false);
     }
     if((identifier = matchAndRemove(String)) != nullptr) {
-        return nullptr; //Need to add string node
+        return new StringNode(identifier->getValue()); 
     }
     if((identifier = matchAndRemove(Character)) != nullptr) {
         return new CharNode(identifier->getValue());

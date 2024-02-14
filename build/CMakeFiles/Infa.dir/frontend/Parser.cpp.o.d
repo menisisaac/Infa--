@@ -139,6 +139,7 @@ CMakeFiles/Infa.dir/frontend/Parser.cpp.o: \
  /home/menis/project/Infa--/frontend/Nodes/VariableReferenceNode.h \
  /home/menis/project/Infa--/frontend/Nodes/VariableReferenceNode.h \
  /home/menis/project/Infa--/frontend/Nodes/BoolNode.h \
+ /home/menis/project/Infa--/frontend/Nodes/StringNode.h \
  /home/menis/project/Infa--/frontend/Nodes/CharNode.h \
  /home/menis/project/Infa--/frontend/Nodes/MathOpNode.h \
  /home/menis/project/Infa--/frontend/Nodes/IntNode.h \

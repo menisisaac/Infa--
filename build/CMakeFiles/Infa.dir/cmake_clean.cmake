@@ -25,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.o.d"
   "CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.o"
   "CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.o.d"
+  "CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o"
+  "CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o.d"
   "CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.o"
   "CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.o.d"
   "CMakeFiles/Infa.dir/frontend/Nodes/VariableReferenceNode.cpp.o"

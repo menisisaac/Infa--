@@ -83,10 +83,24 @@ CMakeFiles/Infa.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Infa.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/menis/project/Infa--/main.cpp -o CMakeFiles/Infa.dir/main.cpp.s
 
+CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o: CMakeFiles/Infa.dir/flags.make
+CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/StringNode.cpp
+CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/StringNode.cpp
+
+CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/menis/project/Infa--/frontend/Nodes/StringNode.cpp > CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.i
+
+CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/menis/project/Infa--/frontend/Nodes/StringNode.cpp -o CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.s
+
 CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/IntNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/IntNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Token.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Token.cpp.o: /home/menis/project/Infa--/frontend/Token.cpp
 CMakeFiles/Infa.dir/frontend/Token.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Infa.dir/frontend/Token.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Infa.dir/frontend/Token.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Token.cpp.o -MF CMakeFiles/Infa.dir/frontend/Token.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Token.cpp.o -c /home/menis/project/Infa--/frontend/Token.cpp
 
 CMakeFiles/Infa.dir/frontend/Token.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/Infa.dir/frontend/Token.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Lexer.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Lexer.cpp.o: /home/menis/project/Infa--/frontend/Lexer.cpp
 CMakeFiles/Infa.dir/frontend/Lexer.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Infa.dir/frontend/Lexer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Infa.dir/frontend/Lexer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Lexer.cpp.o -MF CMakeFiles/Infa.dir/frontend/Lexer.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Lexer.cpp.o -c /home/menis/project/Infa--/frontend/Lexer.cpp
 
 CMakeFiles/Infa.dir/frontend/Lexer.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Infa.dir/frontend/Lexer.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Parser.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Parser.cpp.o: /home/menis/project/Infa--/frontend/Parser.cpp
 CMakeFiles/Infa.dir/frontend/Parser.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Infa.dir/frontend/Parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Infa.dir/frontend/Parser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Parser.cpp.o -MF CMakeFiles/Infa.dir/frontend/Parser.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Parser.cpp.o -c /home/menis/project/Infa--/frontend/Parser.cpp
 
 CMakeFiles/Infa.dir/frontend/Parser.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Infa.dir/frontend/Parser.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/AssignmentNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/AssignmentNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/AssignmentNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/AssignmentNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/AssignmentNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/AssignmentNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/AssignmentNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/AssignmentNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/AssignmentNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/AssignmentNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/AssignmentNode.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/AssignmentNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/VariableReferenceNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/VariableReferenceNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/VariableReferenceNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/VariableReferenceNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/VariableReferenceNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/VariableReferenceNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/VariableReferenceNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/VariableReferenceNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/VariableReferenceNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/VariableReferenceNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/VariableReferenceNode.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/VariableReferenceNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/BoolNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/BoolNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/BoolNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/BoolNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/BoolNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/BoolNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/BoolNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/BoolNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/BoolNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/BoolNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/BoolNode.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/BoolNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/BooleanExpressionNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/BooleanExpressionNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/BooleanExpressionNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/BooleanExpressionNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/BooleanExpressionNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/BooleanExpressionNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/BooleanExpressionNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/BooleanExpressionNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/BooleanExpressionNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/BooleanExpressionNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/BooleanExpressionNode.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/BooleanExpressionNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/VariableNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/VariableNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/VariableNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/CallableNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/CallableNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/CallableNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/CallableNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/CallableNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/CallableNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/CallableNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/CallableNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/CallableNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/CallableNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/CallableNode.cpp.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/CallableNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/CharNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/CharNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/CharNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/CharNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/CharNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/CharNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/CharNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/CharNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/CharNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/CharNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/CharNode.cpp.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/CharNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/FloatNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/FloatNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/FloatNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/FloatNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/FloatNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/FloatNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/FloatNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/FloatNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/FloatNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/FloatNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/FloatNode.cpp.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/FloatNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/ForNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/ForNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/ForNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/ForNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/ForNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/ForNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/ForNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/ForNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/ForNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/ForNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/ForNode.cpp.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/ForNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/FunctionCallNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/FunctionCallNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/FunctionCallNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/FunctionCallNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/FunctionCallNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/FunctionCallNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/FunctionCallNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/FunctionCallNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/FunctionCallNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/FunctionCallNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/FunctionCallNode.cpp.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/FunctionCallNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/ParameterNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/ParameterNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.i: cmake_force
@@ -296,7 +310,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/ParameterNode.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/FunctionDefinition.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/FunctionDefinition.cpp.o: /home/menis/project/Infa--/frontend/Nodes/FunctionDefinition.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/FunctionDefinition.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/FunctionDefinition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/FunctionDefinition.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/FunctionDefinition.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/FunctionDefinition.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/FunctionDefinition.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/FunctionDefinition.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/FunctionDefinition.cpp.i: cmake_force
@@ -310,7 +324,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/FunctionDefinition.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/TypeInference.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/TypeInference.cpp.o: /home/menis/project/Infa--/frontend/TypeInference.cpp
 CMakeFiles/Infa.dir/frontend/TypeInference.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Infa.dir/frontend/TypeInference.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Infa.dir/frontend/TypeInference.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/TypeInference.cpp.o -MF CMakeFiles/Infa.dir/frontend/TypeInference.cpp.o.d -o CMakeFiles/Infa.dir/frontend/TypeInference.cpp.o -c /home/menis/project/Infa--/frontend/TypeInference.cpp
 
 CMakeFiles/Infa.dir/frontend/TypeInference.cpp.i: cmake_force
@@ -324,7 +338,7 @@ CMakeFiles/Infa.dir/frontend/TypeInference.cpp.s: cmake_force
 CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.o: CMakeFiles/Infa.dir/flags.make
 CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.o: /home/menis/project/Infa--/frontend/Nodes/MathOpNode.cpp
 CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.o: CMakeFiles/Infa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.o -MF CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.o.d -o CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.o -c /home/menis/project/Infa--/frontend/Nodes/MathOpNode.cpp
 
 CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.i: cmake_force
@@ -338,6 +352,7 @@ CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.s: cmake_force
 # Object files for target Infa
 Infa_OBJECTS = \
 "CMakeFiles/Infa.dir/main.cpp.o" \
+"CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o" \
 "CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.o" \
 "CMakeFiles/Infa.dir/frontend/Token.cpp.o" \
 "CMakeFiles/Infa.dir/frontend/Lexer.cpp.o" \
@@ -361,6 +376,7 @@ Infa_OBJECTS = \
 Infa_EXTERNAL_OBJECTS =
 
 Infa: CMakeFiles/Infa.dir/main.cpp.o
+Infa: CMakeFiles/Infa.dir/frontend/Nodes/StringNode.cpp.o
 Infa: CMakeFiles/Infa.dir/frontend/Nodes/IntNode.cpp.o
 Infa: CMakeFiles/Infa.dir/frontend/Token.cpp.o
 Infa: CMakeFiles/Infa.dir/frontend/Lexer.cpp.o
@@ -381,7 +397,7 @@ Infa: CMakeFiles/Infa.dir/frontend/TypeInference.cpp.o
 Infa: CMakeFiles/Infa.dir/frontend/Nodes/MathOpNode.cpp.o
 Infa: CMakeFiles/Infa.dir/build.make
 Infa: CMakeFiles/Infa.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable Infa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable Infa"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Infa.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

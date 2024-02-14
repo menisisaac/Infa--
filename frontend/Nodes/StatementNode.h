@@ -2,9 +2,7 @@
 // Created by menis on 7/2/2023.
 //
 
-#ifndef INFA_STATEMENTNODE_H
-#define INFA_STATEMENTNODE_H
-
+#pragma once
 
 #include <string>
 #include "Node.h"
@@ -17,4 +15,3 @@ public:
 };
 
 
-#endif //INFA_STATEMENTNODE_H

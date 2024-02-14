@@ -4,6 +4,9 @@ fun main(x, y, z)
     ifIndex: true
     letter: 'h'
     word: "hello"
+    let one: x two: h in
+        one <- one + 1
+        two <- two + 2
     repeat
         ? index < 1000
             index <- index + index

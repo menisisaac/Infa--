@@ -1,0 +1,10 @@
+class xyz extends ghj
+    const z:32
+    const y
+    u 
+    v
+
+    xyz(g,h,f)
+        y: g
+        u: h
+        v: f

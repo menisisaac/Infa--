@@ -170,7 +170,6 @@ CMakeFiles/TestInfa.dir/test.cpp.o: /home/menis/project/Infa--/test.cpp \
  /usr/include/c++/13.2.1/list /usr/include/c++/13.2.1/bits/stl_list.h \
  /usr/include/c++/13.2.1/bits/allocated_ptr.h \
  /usr/include/c++/13.2.1/bits/list.tcc \
- /home/menis/project/Infa--/frontend/Nodes/StatementNode.h \
  /home/menis/project/Infa--/frontend/Nodes/AssignmentNode.h \
  /home/menis/project/Infa--/frontend/Nodes/VariableReferenceNode.h \
  /home/menis/project/Infa--/frontend/Token.h

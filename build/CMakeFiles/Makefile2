@@ -191,12 +191,12 @@ CMakeFiles/RISCVTargetParserTableGen.dir/clean:
 CMakeFiles/Infa.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Infa.dir/build.make CMakeFiles/Infa.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Infa.dir/build.make CMakeFiles/Infa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target Infa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target Infa"
 .PHONY : CMakeFiles/Infa.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Infa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/menis/project/Infa--/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/menis/project/Infa--/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Infa.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/menis/project/Infa--/build/CMakeFiles 0
 .PHONY : CMakeFiles/Infa.dir/rule
@@ -217,12 +217,12 @@ CMakeFiles/Infa.dir/clean:
 CMakeFiles/TestInfa.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestInfa.dir/build.make CMakeFiles/TestInfa.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestInfa.dir/build.make CMakeFiles/TestInfa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target TestInfa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/menis/project/Infa--/build/CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42 "Built target TestInfa"
 .PHONY : CMakeFiles/TestInfa.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TestInfa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/menis/project/Infa--/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/menis/project/Infa--/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TestInfa.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/menis/project/Infa--/build/CMakeFiles 0
 .PHONY : CMakeFiles/TestInfa.dir/rule
